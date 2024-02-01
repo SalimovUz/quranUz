@@ -1,17 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/sass/main.css">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/sass/main.css" />
+    <title>Quran site</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="navbar__left">
+          <h1>Regodev</h1>
+        </div>
+        <div class="navbar__center">
+          <img src="./assets/images/photos/nav-logo.svg" alt="Logo" />
+        </div>
+        <div class="navbar__right">
+          <img src="./assets/images/photos/nav-user.svg" alt="Choose-user" />
+        </div>
+      </div>
 
-  <div id="container" class="container">
+      <div class="menu__section">
+        <label class="searching" for="search_surah">
+          <input type="text" placeholder="Pencarian surah dalam Alquran..." id="search_surah" />
 
-  </div>
-  
-  <script src="./main.js"></script>
-</body>
+          <img src="./assets/images/icons/search-img.svg" alt="Search">
+        </label>
+
+        <div class="types">
+            <h2>Sering di baca</h2>
+
+            <button class="btn_type">Alkahfi</button>
+            <button class="btn_type">Ayat kursi</button>
+            <button class="btn_type">Albaqaroh</button>
+            <button class="btn_type">ArRahmon</button>
+            <button class="btn_type">Qof</button>
+        </div>
+
+        <div class="pages">
+            <button>
+                <img src="./assets/images/icons/surat-icon.svg" alt="Surat">
+                <h3>Surat</h3>
+            </button>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
 </html>
